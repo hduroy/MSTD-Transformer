@@ -47,7 +47,7 @@ python finetune-msr.py
 ```
 The code provides a trained model model.pth that can be directly used.
 
-You need to place the pre-trained model in the directory log_ssl_10%25MSR/MSR3D.
+You need to place the pre-trained model in the directory log_finetune_10%MSR/MSR3D.
 
 ## Acknowledgement
 
