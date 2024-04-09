@@ -18,7 +18,7 @@ The Masked Spatio-Temporal Dynamic Transformer (MSTD-Transformer) model proposed
     - Ubuntu 18.04
 
 
-    Compile the CUDA layers for [PointNet++](http://arxiv.org/abs/1706.02413) and Chamfer_Distance_Loss:
+    Compile the CUDA layers for [PointNet++](http://arxiv.org/abs/1706.02413)
 
     ```
     cd modules
