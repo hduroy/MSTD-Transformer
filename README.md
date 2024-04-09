@@ -52,7 +52,11 @@ You need to place the pre-trained model in the directory log_ssl_10%25MSR/MSR3D.
 ## Acknowledgement
 
 PSTNet: https://github.com/hehefan/Point-Spatio-Temporal-Convolution\
+
 P4Transformer: https://github.com/hehefan/P4Transformer\
+
 PST-Transformer: https://github.com/hehefan/PST-Transformer\
+
 MAE: https://github.com/facebookresearch/mae\
+
 MaST-Pre:https://github.com/JohnsonSign/MaST-Pre
