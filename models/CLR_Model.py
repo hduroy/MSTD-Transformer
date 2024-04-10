@@ -411,8 +411,8 @@ class ContrastiveLearningModel(nn.Module):
             shot_loss += self.criterion_shot(pre_shot_list[tk_i], gt_shot_list[tk_i+1]-gt_shot_list[tk_i])
         shot_loss = shot_loss / (self.tk-1)
 
-        # loss = point_loss + shot_loss
-        loss = point_loss
+        loss = point_loss + shot_loss
+
 
         if self.vis:
             vis_points = xyzs_neighbors[~mask_input].reshape(batch_size, -1, self.tk, self.nsamples, 3) # [B, L*N-m, tk*nn, 3]
